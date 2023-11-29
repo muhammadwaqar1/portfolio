@@ -1,9 +1,14 @@
+"use client";
 import Image from "next/image";
 import React from "react";
-
-function InfoBox({ title, description, url }) {
-  return (
-    <div className="bg-primary-profileBoxBg w-full h-[200px] rounded-xl flex items-center justify-evenly flex-col">
+import { useRouter } from "next/navigation";
+function InfoBox({ title, description, url, page }) {
+  const router = useRouter();
+  return ( 
+    <div
+      className="bg-primary-profileBoxBg w-full h-[200px] rounded-xl flex items-center justify-evenly flex-col cursor-pointer"
+      onClick={() => router.push(`${page}`)}
+    >
       <div className="">
         <Image src={url} width={150} height={150} alt="sdf" />
       </div>

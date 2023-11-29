@@ -10,14 +10,14 @@ function About() {
       {/* <----------- Picture ---------> */}
       <div className="lg:flex">
         <div className="flex w-full lg:w-[30%]  justify-center">
-          <div className=" bg-primary-profileBoxBg  m-4 rounded-3xl p-5 flex justify-center">
+          <div className=" bg-primary-profileBoxBg  m-4 rounded-3xl p-5 flex justify-end">
             <div className="profileBackground">
               <Image
-                src="/images/weer.jpeg"
+                src="/images/cat.png"
                 width={350}
                 height={500}
                 alt="Profile image"
-                className="rounded-3xl h-64 p-5"
+                className="rounded-3xl "
               />
             </div>
           </div>

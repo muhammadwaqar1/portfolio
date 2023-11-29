@@ -4,7 +4,7 @@ import Heading from "../(component)/heading/heading";
 
 function Work() {
   return (
-    <div className="md:container md:mx-auto px-6">
+    <div className=" md:container md:mx-auto mx-0 px-5 ">
       <div className="md:flex md:flex-row flex flex-col-reverse w-full">
         <div className=" md:w-[35%] w-full ">
           <Project />

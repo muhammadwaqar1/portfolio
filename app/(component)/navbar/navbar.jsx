@@ -2,6 +2,7 @@
 import Link from "next/link";
 import React, { useState } from "react";
 import "./navbarStyle.css";
+import { useRouter } from "next/navigation";
 const navLink = [
   { name: "Home", link: "/" },
   { name: "About", link: "/about" },
@@ -11,9 +12,10 @@ const navLink = [
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   const [navIndex, setNavIndex] = useState(0);
+  const router = useRouter();
   return (
     <>
-      <nav className=" md:container md:mx-auto w-full ">
+      <nav className=" md:container md:mx-auto w-full mb-12">
         <div className=" flex flex-col md:flex-row   items-center justify-between  py-4 px-8 ">
           <div className="w-full md:w-20  flex justify-between items-center">
             <img
@@ -55,8 +57,7 @@ function Navbar() {
               })}
             </ul>
           </div>
-
-          <div>
+          <div onClick={() => router.push("/contact")}>
             <button className="px-5 py-2 hidden md:block bg-btn rounded-lg hover:bg-btn_hover hover:text-black">
               Let s talk
             </button>
