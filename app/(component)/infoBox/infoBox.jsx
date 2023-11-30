@@ -21,6 +21,7 @@ function InfoBox({ title, description, url, page }) {
           src="/images/iconNext.svg"
           width={30}
           height={30}
+          alt="iconNext"
           className="flex self-end cursor-pointer"
         />
       </div>

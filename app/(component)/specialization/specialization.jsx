@@ -9,11 +9,11 @@ function Specialization() {
           src="/images/pencil.svg"
           width={30}
           height={30}
-          alt="sdf"
+          alt="pencil"
           style={{ fill: "red" }}
         />
-        <Image src="/images/cercal.svg" width={30} height={30} alt="sdf" />
-        <Image src="/images/mobile.svg" width={30} height={30} alt="sdf" />
+        <Image src="/images/cercal.svg" width={30} height={30} alt="cercal" />
+        <Image src="/images/mobile.svg" width={30} height={30} alt="mobile" />
       </div>
       <div className="w-full flex justify-around ">
         <div>
@@ -24,6 +24,7 @@ function Specialization() {
           src="/images/iconNext.svg"
           width={30}
           height={30}
+          alt="iconNext"
           className="flex self-end cursor-pointer"
         />
       </div>

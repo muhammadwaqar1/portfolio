@@ -23,6 +23,7 @@ function Project() {
                 src="/images/iconNext.svg"
                 width={40}
                 height={40}
+                alt="sdfsf"
                 className="flex self-end cursor-pointer"
               />
             </div>

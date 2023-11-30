@@ -42,7 +42,13 @@ function Navbar() {
             <ul className=" flex flex-col p-4 md:p-0 mt-4 font-medium  md:space-x-10 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0">
               {navLink.map((item, index) => {
                 return (
-                  <li key={index} onClick={() => setNavIndex(index)}>
+                  <li
+                    key={index}
+                    onClick={() => {
+                      setNavIndex(index);
+                      setIsOpen(!isOpen);
+                    }}
+                  >
                     <Link
                       href={`${item?.link}`}
                       className={`block py-2 px-3 ${

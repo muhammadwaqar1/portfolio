@@ -58,7 +58,7 @@ function Offering() {
             return (
               <div className="flex justify-around w-full items-center ">
                 <div className="">
-                  <Image src={item.icon} width={40} height={40} />
+                  <Image src={item.icon} width={40} height={40}  alt="icons"/>
                 </div>
                 <h1 className="flex justify-start md:w-[40%] w-[70%]  ">
                   {item.name}

@@ -20,10 +20,12 @@ body {
   color: rgb(var(--foreground-rgb));
   background: #0F0F0F
 }
+
 .userLinks {
   background: linear-gradient(120deg, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
 }
-.profileBackground{
+
+.profileBackground {
   background: linear-gradient(90deg, #3C58E3 -15%, #C2EBFF 58%, #5AB5E2 97%);
   border-radius: 30px
 }

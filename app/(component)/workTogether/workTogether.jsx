@@ -9,7 +9,7 @@ function WorkTogether() {
       className="bg-primary-profileBoxBg w-full  rounded-xl pl-5 py-7 mt-4 lg:mt-0 cursor-pointer"
       onClick={() => router.push("/contact")}
     >
-      <Image src="/images/icon2.png" width={30} height={30} alt="sdaf" />
+      <Image src="/images/icon2.png" width={30} height={30} alt="icon2" />
       <h1 className="font-medium text-3xl">Let's </h1>
       <p className="font-medium text-3xl">
         Work{" "}
@@ -20,6 +20,7 @@ function WorkTogether() {
           src="/images/iconNext.svg"
           width={40}
           height={40}
+          alt="iconNext"
           className="flex self-end cursor-pointer"
         />
       </div>

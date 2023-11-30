@@ -9,6 +9,7 @@ function Social({title,contact,address,icon}) {
           src={`${icon}`}
           width={40}
           height={40}
+          alt="icon"
           className="flex self-end cursor-pointer"
         />
       </div>

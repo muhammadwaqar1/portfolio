@@ -17,8 +17,8 @@ function Profile() {
         </div>
         <div className="justify-center space-y-2 flex flex-col ">
           <h1 className="text-primary-textColor">Web Designer</h1>
-          <p className="text-4xl text-text_white">Muhammad</p>
-          <p className="text-4xl text-text_white">Waqar .</p>
+          <p className="text-4xl text-text_white">sadfasdfs</p>
+          <p className="text-4xl text-text_white">fdsfdf .</p>
           <p className="text-primary-textColor">
             i am a web Designer and based in Pakistan
           </p>
@@ -27,6 +27,7 @@ function Profile() {
             src="/images/iconNext.svg"
             width={30}
             height={30}
+            alt="sdfsd"
             className="flex self-end cursor-pointer"
           />
         </div>

@@ -8,7 +8,7 @@ function SocialIcon() {
       src="/images/camera.svg"
       width={30}
       height={30}
-      alt="sdf"
+      alt="camera"
     />
     </div>
   )
